@@ -1,6 +1,9 @@
 class ApplicationController < ActionController::API
-    before_action :configure_permitted_parameters, if: :devise_controller?
+    respond_to :json  # <- Add this line
+    include ActionController::MimeResponds
 
+    before_action :configure_permitted_parameters, if: :devise_controller?
+    #added the before_action to allow a username with Devise 
     protected
 
     def configure_permitted_parameters
