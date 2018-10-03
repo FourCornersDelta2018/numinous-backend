@@ -7,5 +7,6 @@ class User < ApplicationRecord
          :validatable,
          :jwt_authenticatable,
          jwt_revocation_strategy: self
-
+    has_many :destinations, :through => :destination_users
+    has_many :destination_users
 end

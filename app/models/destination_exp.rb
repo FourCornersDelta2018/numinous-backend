@@ -1,0 +1,2 @@
+class DestinationExp < ApplicationRecord
+end
