@@ -10,10 +10,38 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 2018_10_03_224345) do
+ActiveRecord::Schema.define(version: 2018_10_03_225731) do
 
   # These are extensions that must be enabled in order to support this database
   enable_extension "plpgsql"
+
+  create_table "destination_exps", force: :cascade do |t|
+    t.integer "destination_id"
+    t.integer "exp_attribute_id"
+    t.datetime "created_at", null: false
+    t.datetime "updated_at", null: false
+  end
+
+  create_table "destination_geos", force: :cascade do |t|
+    t.integer "destination_id"
+    t.integer "geo_attribute_id"
+    t.datetime "created_at", null: false
+    t.datetime "updated_at", null: false
+  end
+
+  create_table "destination_langs", force: :cascade do |t|
+    t.integer "destination_id"
+    t.integer "lang_attribute_id"
+    t.datetime "created_at", null: false
+    t.datetime "updated_at", null: false
+  end
+
+  create_table "destination_users", force: :cascade do |t|
+    t.integer "destination_id"
+    t.integer "user_id"
+    t.datetime "created_at", null: false
+    t.datetime "updated_at", null: false
+  end
 
   create_table "destinations", force: :cascade do |t|
     t.string "dest_name"
