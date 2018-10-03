@@ -1,0 +1,2 @@
+class LangAttribute < ApplicationRecord
+end

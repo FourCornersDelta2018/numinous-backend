@@ -1,0 +1,2 @@
+class ExpAttribute < ApplicationRecord
+end

@@ -1,0 +1,2 @@
+class GeoAttribute < ApplicationRecord
+end
