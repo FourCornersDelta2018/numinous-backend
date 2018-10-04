@@ -9,4 +9,11 @@ class User < ApplicationRecord
          jwt_revocation_strategy: self
     has_many :destinations, :through => :destination_users
     has_many :destination_users
+
+  validate :password_complexity
+
+  def password_complexity
+      return if password.blank? || password == email
+
+      errors.add :password, 'Requirements not met.'
 end
