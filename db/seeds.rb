@@ -44,3 +44,30 @@ lang_attr_csv.each do |row|
   t.language = row['lang_attr']
   t.save
 end
+
+dest_geo_csv_text = File.read(Rails.root.join('lib', 'seeds', 'dest_geo.csv'))
+dest_geo_csv = CSV.parse(dest_geo_csv_text, :headers => true, :encoding => 'ISO-8859-1')
+dest_geo_csv.each do |row|
+  t = DestinationGeo.new
+  t.destination_id = row['id']
+  t.geo_attribute_id = row['geo_attr_id']
+  t.save
+end
+
+dest_exp_csv_text = File.read(Rails.root.join('lib', 'seeds', 'dest_exp.csv'))
+dest_exp_csv = CSV.parse(dest_exp_csv_text, :headers => true, :encoding => 'ISO-8859-1')
+dest_exp_csv.each do |row|
+  t = DestinationExp.new
+  t.destination_id = row['id']
+  t.exp_attribute_id = row['exp_attr_id']
+  t.save
+end
+
+dest_lang_csv_text = File.read(Rails.root.join('lib', 'seeds', 'dest_lang.csv'))
+dest_lang_csv = CSV.parse(dest_lang_csv_text, :headers => true, :encoding => 'ISO-8859-1')
+dest_lang_csv.each do |row|
+  t = DestinationLang.new
+  t.destination_id = row['id']
+  t.lang_attribute_id = row['lang_attr_id']
+  t.save
+end
