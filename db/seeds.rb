@@ -6,8 +6,6 @@
 #   movies = Movie.create([{ name: 'Star Wars' }, { name: 'Lord of the Rings' }])
 #   Character.create(name: 'Luke', movie: movies.first)
 
-Destination.create(dest_name: 'Kishinev', region: 'Unicornia', country: 'Moldova', img_path: '/assets/images/kishinev.jpg')
-
 require 'csv'
 
 dest_csv_text = File.read(Rails.root.join('lib', 'seeds', 'destinations.csv'))
@@ -71,3 +69,5 @@ dest_lang_csv.each do |row|
   t.lang_attribute_id = row['lang_attr_id']
   t.save
 end
+
+Destination.create(dest_name: 'Kishinev', region: 'Unicornia', country: 'Moldova', img_path: '/assets/images/kishinev.jpg')
