@@ -16,4 +16,5 @@ class User < ApplicationRecord
       return if password.blank? || password == email
 
       errors.add :password, 'Requirements not met.'
+  end
 end
