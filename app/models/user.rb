@@ -13,8 +13,9 @@ class User < ApplicationRecord
   validate :password_complexity
 
   def password_complexity
-      return if password.blank? || password == email
+      if password.blank? || password == email
 
-      errors.add :password, 'Requirements not met.'
+          errors.add :password, 'Requirements not met.'
+      end
   end
 end
