@@ -10,13 +10,37 @@ Destination.create(dest_name: 'Kishinev', region: 'Unicornia', country: 'Moldova
 
 require 'csv'
 
-csv_text = File.read(Rails.root.join('lib', 'seeds', 'destinations.csv'))
-csv = CSV.parse(csv_text, :headers => true, :encoding => 'ISO-8859-1')
-csv.each do |row|
+dest_csv_text = File.read(Rails.root.join('lib', 'seeds', 'destinations.csv'))
+dest_csv = CSV.parse(dest_csv_text, :headers => true, :encoding => 'ISO-8859-1')
+dest_csv.each do |row|
   t = Destination.new
   t.dest_name = row['dest_name']
   t.region = row['region']
   t.country = row['country']
   t.img_path = row['img_path']
+  t.save
+end
+
+geo_attr_csv_text = File.read(Rails.root.join('lib', 'seeds', 'geo_attr.csv'))
+geo_attr_csv = CSV.parse(geo_attr_csv_text, :headers => true, :encoding => 'ISO-8859-1')
+geo_attr_csv.each do |row|
+  t = GeoAttribute.new
+  t.geography = row['geo_attr']
+  t.save
+end
+
+exp_attr_csv_text = File.read(Rails.root.join('lib', 'seeds', 'exp_attr.csv'))
+exp_attr_csv = CSV.parse(exp_attr_csv_text, :headers => true, :encoding => 'ISO-8859-1')
+exp_attr_csv.each do |row|
+  t = ExpAttribute.new
+  t.experience = row['exp_attr']
+  t.save
+end
+
+lang_attr_csv_text = File.read(Rails.root.join('lib', 'seeds', 'lang_attr.csv'))
+lang_attr_csv = CSV.parse(lang_attr_csv_text, :headers => true, :encoding => 'ISO-8859-1')
+lang_attr_csv.each do |row|
+  t = LangAttribute.new
+  t.language = row['lang_attr']
   t.save
 end
