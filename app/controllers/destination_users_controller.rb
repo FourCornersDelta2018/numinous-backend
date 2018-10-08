@@ -8,9 +8,13 @@ class DestinationUsersController < ApplicationController
     render json: @destination_users
   end
 
-  # GET /destination_users/1
+  # # GET /destination_users/1
+
   def show
-    render json: @destination_user
+      destination_user = DestinationUser.where(user_id: params[:id])
+      p destination_user
+
+      render json: destination_user, methods: [:destination]
   end
 
   # POST /destination_users
@@ -49,4 +53,5 @@ class DestinationUsersController < ApplicationController
       # params.fetch(:destination_user, {})
       params.require(:destination_user).permit(:user_id, :destination_id)
     end
+
 end
