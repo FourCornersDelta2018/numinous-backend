@@ -1,11 +1,11 @@
-geo_attr
-Mountains
-City
-Canyon
-Tropical 
-Glacier
-Sea Cliffs
-Beach
-Hot Springs
-Lake
-Island
+id,geo_attr
+1,Mountains
+2,City
+3,Canyon
+4,Tropical 
+5,Glacier
+6,Sea Cliffs
+7,Beach
+8,Hot Springs
+9,Lake
+10,Island

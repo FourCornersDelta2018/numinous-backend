@@ -1,10 +1,11 @@
-exp_attr
-Art/Museums
-Fair/Festival
-History
-Landmark
-Nature
-Oddity
-Spas/Springs
-Wineries
-Ancient Ruins
+id,exp_attr
+1,Art/Museums
+2,Fair/Festival
+3,History
+4,Landmark
+5,Nature
+6,Oddity
+7,Spas/Springs
+8,Wineries
+9,Ancient Ruins
+10,Urban Exploration
