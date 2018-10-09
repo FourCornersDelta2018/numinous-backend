@@ -39,13 +39,14 @@ class DestinationUsersController < ApplicationController
 
   # DELETE /destination_users/1
   def destroy
-    @destination_user.destroy
+    destination_user = DestinationUser.find(params[:id])
+    destination_user.destroy
   end
 
   private
     # Use callbacks to share common setup or constraints between actions.
     def set_destination_user
-      @destination_user = DestinationUser.find(params[:id])
+      @destination_user = DestinationUser.find_by_user_id(params[:id])
     end
 
     # Only allow a trusted parameter "white list" through.
