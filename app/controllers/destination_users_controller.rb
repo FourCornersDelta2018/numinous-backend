@@ -17,6 +17,11 @@ class DestinationUsersController < ApplicationController
       render json: destination_user, methods: [:destination]
   end
 
+  # DELETE /destination_users/1
+  def destroy
+    DestinationUser.destroy(DestinationUser.find_by_destination_id(params[:destination_id]).id)
+  end
+
   # POST /destination_users
   def create
     @destination_user = DestinationUser.new(destination_user_params)
@@ -35,12 +40,6 @@ class DestinationUsersController < ApplicationController
     else
       render json: @destination_user.errors, status: :unprocessable_entity
     end
-  end
-
-  # DELETE /destination_users/1
-  def destroy
-    destination_user = DestinationUser.find(params[:id])
-    destination_user.destroy
   end
 
   private
