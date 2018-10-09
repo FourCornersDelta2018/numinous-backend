@@ -53,5 +53,4 @@ class DestinationUsersController < ApplicationController
       # params.fetch(:destination_user, {})
       params.require(:destination_user).permit(:user_id, :destination_id)
     end
-
 end

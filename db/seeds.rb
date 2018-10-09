@@ -15,7 +15,7 @@ dest_csv.each do |row|
   t.dest_name = row['dest_name']
   t.region = row['region']
   t.country = row['country']
-  t.img_path = row['img_path']
+  t.img_path = row['img']
   t.save
 end
 

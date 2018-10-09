@@ -1,4 +1,4 @@
-dest_name,region,country,img_path
+dest_name,region,country,img
 Salar de Uyuni,Daniel Campos Province,Bolivia,/assets/images/salardeuyuni.jpg
 Sapporo,Hokkaido,Japan,/assets/images/Sapporo1.jpg
 Hakkone,Kanto,Japan,/assets/images/Hakone1.jpg
@@ -29,3 +29,13 @@ Ellora,Maharashtra,India,/assets/images/Ellora1.jpg
 Ciqikou,Chongqing,China,/assets/images/Ciqikou1.jpg
 Aoshima,Ehime,Japan,/assets/images/Aoshima1.jpg
 Marfa,Texas,United States,/assets/images/Marfa1.jpg
+Paro Taktsang,Paro Districtu,Bhutan,/assets/images/tigernest.jpg
+Tegallalang (Gianyar Regency),Bali,Indonesia,/assets/images/tegallalang.jpg
+Bagan,Mandalay,Myanmar,/assets/images/Bagan1.jpg
+Brasilia,Federal District,Brazil,/assets/images/Brasilia1.jpg
+Mürren,Bernese Highlands,Switzerland,/assets/images/murren.jpg
+Tampa,Florida,United States,/assets/images/Tampa1.jpg
+Assateague,Maryland,United States,/assets/images/Assateague1.jpg
+Victoria,British Columbia,Canada,/assets/images/Victoria1.jpg
+Nashik,Maharashtra,India,/assets/images/Nashik1.jpg
+Huangshan,Anhui,China,/assets/images/Huangshan1.jpg
