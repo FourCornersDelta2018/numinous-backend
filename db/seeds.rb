@@ -69,5 +69,3 @@ dest_lang_csv.each do |row|
   t.lang_attribute_id = row['lang_attr_id']
   t.save
 end
-
-Destination.create(dest_name: 'Kishinev', region: 'Unicornia', country: 'Moldova', img_path: '/assets/images/kishinev.jpg')
