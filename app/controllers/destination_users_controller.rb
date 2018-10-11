@@ -12,9 +12,13 @@ class DestinationUsersController < ApplicationController
 
   def show
       destination_user = DestinationUser.where(user_id: params[:id])
+      user_info = User.find(params[:id])
+      destination_info = destination_user.map{|destination| destination.destination}
+      all_user_info = {user_info: user_info, destination_user: destination_user, destination_info: destination_info}
+      p user_info
       p destination_user
 
-      render json: destination_user, methods: [:destination]
+      render json: all_user_info#, methods: [:destination]
   end
 
   # DELETE /destination_users/1
