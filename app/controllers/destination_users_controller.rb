@@ -12,9 +12,18 @@ class DestinationUsersController < ApplicationController
 
   def show
       destination_user = DestinationUser.where(user_id: params[:id])
+      user_info = User.find(params[:id])
+      destination_info = destination_user.map{|destination| destination.destination}
+      all_user_info = {user_info: user_info, destination_user: destination_user, destination_info: destination_info}
+      p user_info
       p destination_user
 
-      render json: destination_user, methods: [:destination]
+      render json: all_user_info#, methods: [:destination]
+  end
+
+  # DELETE /destination_users/1
+  def destroy
+    DestinationUser.destroy(DestinationUser.find_by_destination_id(params[:destination_id]).id)
   end
 
   # POST /destination_users
@@ -37,15 +46,10 @@ class DestinationUsersController < ApplicationController
     end
   end
 
-  # DELETE /destination_users/1
-  def destroy
-    @destination_user.destroy
-  end
-
   private
     # Use callbacks to share common setup or constraints between actions.
     def set_destination_user
-      @destination_user = DestinationUser.find(params[:id])
+      @destination_user = DestinationUser.find_by_user_id(params[:id])
     end
 
     # Only allow a trusted parameter "white list" through.

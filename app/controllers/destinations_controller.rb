@@ -1,7 +1,7 @@
 class DestinationsController < ApplicationController
     def index
-        destinations=Destination.all
-        render json: destinations
+        @destinations = Destination.all
+        # render json: destinations
     end
 
     def show
