@@ -45,3 +45,6 @@ end
 gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw, :jruby]
 gem 'rspec-rails', groups: [:development, :test]
 gem 'devise-jwt', '~> 0.5.6'
+
+# We will be using the Amazon Ruby SDK for interacting with S3. In your application’s Gemfile add
+gem 'aws-sdk', '~> 2'
