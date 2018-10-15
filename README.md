@@ -25,7 +25,6 @@ In the backend, run the following commands:
 * rails db:migrate
 * rails db:seed
 
-
 ## Four Corners
 From the four corners of the United States, Four Corners: Queer Eye for the Straight Girl is comprised of four lovely Delta Unicorns, all (soon-to-be) graduates of the LEARN Academy in San Diego. Our synergy, camaraderie, and distinct but complementary perspectives are what make us thrive. Four Corners is excited to add value and diversity to San Diego.
 

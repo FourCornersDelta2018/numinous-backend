@@ -1,41 +1,43 @@
-dest_name,region,country,img
-Salar de Uyuni,Daniel Campos Province,Bolivia,/images/salardeuyuni.jpg
-Sapporo,Hokkaido,Japan,/images/Sapporo1.jpg
-Hakkone,Kanto,Japan,/images/Hakone1.jpg
-Isla de Janitzio,Michoacán,Mexico,/images/janitzio.jpg
-Barranca del Cobre,Chihuahua,Mexico,/images/barrancadelcobre.jpg
-Punta Gorda,Roatan,Honduras,/images/roatan.jpg
-Isla de Providencia,"San Andrés, Providencia and Santa Catalina",Colombia,/images/isladeprovidencia.jpg
-Panama City,Panama,Panama,/images/panamacity.jpg
-Lucas,Kansas,United States,/images/Lucas.jpg
-Tracy Arm Fjord,Alaska,United States,/images/tracyarm.jpg
-Hamburg,Northern Germany,Germany,/images/Hamburg1.jpg
-Wuppertal,North Rhine-Westphalia,Germany,/images/Wuppertal1.jpg
-Pittsburgh,Pennsylvania,United States,/images/Pittsburgh1.jpg
-Dingle,County Kerry,Ireland,/images/Dingle1.jpg
-Havasu Falls,Arizona,United States,/images/havasufalls.jpg
-La Bufadora,Baja California,Mexico,/images/labufadora.jpg
-Valle de Guadalupe,Baja California,Mexico,/images/valledeguadalupe.jpg
-Guanajuato,Guanajuato,Mexico,/images/guanajuato.jpg
-Sayulita,Nayarit,Mexico,/images/sayulita.jpg
-Grutas de Tolantongo,Hidalgo,Mexico,/images/grutasdetolantongo.jpg
-Medellin,Antioquia,Colombia,/images/medellin.jpg
-Guatape,Antioquia,Colombia,/images/guatape.jpg
-Santa Fe,New Mexico,United States,/images/santafe.jpg
-Arenal Volcano,Alajuela,Costa Rica,/images/arenalvolcano.jpg
-Varadero,Havana,Cuba,/images/varadero.jpg
-Ajanta,Maharashtra,India,/images/Ajanta1.jpg
-Ellora,Maharashtra,India,/images/Ellora1.jpg
-Ciqikou,Chongqing,China,/images/Ciqikou1.jpg
-Aoshima,Ehime,Japan,/images/Aoshima1.jpg
-Marfa,Texas,United States,/images/Marfa1.jpg
-Paro Taktsang,Paro Districtu,Bhutan,/images/tigernest.jpg
-Tegallalang (Gianyar Regency),Bali,Indonesia,/images/tegallalang.jpg
-Bagan,Mandalay,Myanmar,/images/Bagan1.jpg
-Brasilia,Federal District,Brazil,/images/Brasilia1.jpg
-Mürren,Bernese Highlands,Switzerland,/images/murren.jpg
-Tampa,Florida,United States,/images/Tampa1.jpg
-Assateague,Maryland,United States,/images/Assateague1.jpg
-Victoria,British Columbia,Canada,/images/Victoria1.jpg
-Nashik,Maharashtra,India,/images/Nashik1.jpg
-Huangshan,Anhui,China,/images/Huangshan1.png
+dest_name,region,country,img,nearest_city_weather,description
+Salar de Uyuni,Daniel Campos Province,Bolivia,salardeuyuni.jpg,Potosi,"At 4,000 square miles, Salar de Uyuni in Southwest Bolivia is the worlds largest salt flat. A landscape like no other on Earth, it calls to mind the surface of an alien planet. Many local hotels are constructed of—what else?—salt."
+Sapporo,Hokkaido,Japan,Sapporo1.jpg,Sapporo,"Each February, the Sapporo Yuki-matsuri (or Snow Festival) offers a wonderland of ice sculpture. Located in agricultural Hokkaido, Sapporo remains a worthwhile destination year-round for art, cuisine, and a different side of Japanese culture than you'll get in Tokyo or Kyoto."
+Hakkone,Kanto,Japan,Hakone1.jpg,Odawara,"Perched in the mountains between the Pacific Ocean and Mount Fuji, Hakkone is home to a unique collection of spa towns surrounding picturesque Lake Ashi. Historic hotels, an active volcano, and a world-reknowned outdoor art museum are highlights of the region."
+Isla de Janitzio,Michoacán,Mexico,janitzio.jpg,Janitzio,"A village rises from the waters Lago de Pátzcuaro on the back of Isla de Janitzio, accessible only by boat. Two hundred miles west of Mexico City, the village ""where it rains"" lives under the constant gaze of of a 130 foot statue of hero José Maria Morelos."
+Barranca del Cobre,Chihuahua,Mexico,barrancadelcobre.jpg,Creel,"Barranca del Cobre, or ""Copper Canyon,"" is a system of six distinct canyons in the northern Mexican state of Chihuahua. Longer and deeper than the Grand Canyon, this region gets its name from the coppery color of the rocky walls."
+Punta Gorda,Roatan,Honduras,roatan.jpg,Tocoa,"The island of Roatán sits in the Caribbean, off the northern coast of Honduras. There, along pristine beaches though well off the tourist trail, the small town of Punta Gorda is an excellent place to experience native Garifuna culture."
+Isla de Providencia,"San Andrés, Providencia and Santa Catalina",Colombia,isladeprovidencia.jpg,Providencia,"Four hundred miles off the coast of it's country's mainland, Isla de Providencia, Colombia, is more more Caribbean than South American. If you can get there, this beach paradise is a quiet alternative to mainstream Caribbean destinations."
+Panama City,Panama,Panama,panamacity.jpg,Panama,"Though a glance of Panama City's stunning modern skyline may call to mind Miami, the history and culture are pure Panama. Situated at the mouth of the Panama Canal, the city is also home to several UNESCO World Heritage Sites."
+Lucas,Kansas,United States,Lucas.jpg,Salina,"Due to the number sites dedicated to folk art, Lucas, KS has adopted a reputation as the ""Grassroots Art Capital of Kansas."" At its center is the Garden of Eden, an art project that began in 1905 and contains over 150 works of art."
+Tracy Arm Fjord,Alaska,United States,tracyarm.jpg,Juneau,"South of Juneau, Alaska's Tracy Arm Fjord is a deep, narrow fjord over 30 miles long. In it's dramatic crevaces, Sawyer Glacier meets the waters of Tracy Arm, before they spill out into picturesque Holkham Bay."
+Hamburg,Northern Germany,Germany,Hamburg1.jpg,Hamburg,"With no shortage of must-see cities in Europe, Hamburg rarely seems to make the cut on those lists. But this moneyed city offers a unique maritime history, notable examples of urban redevelopment, and a striking collection of 1920's Expressionist architecture."
+Wuppertal,North Rhine-Westphalia,Germany,Wuppertal1.jpg,Wuppertal,"This mid-size Ruhr city may seem skippable on a German itinerary, but fans of unique experiences can't afford to miss Wuppertal. The Schwebebahn suspended train rises on iron arms like a steam-punk fantasy, snaking through the city streets since 1901."
+Pittsburgh,Pennsylvania,United States,Pittsburgh1.jpg,Pittsburgh,"Abandon your ""rust belt"" preconceptions and revel in the dramatic hills, rivers, bridges, and skyline of Pittsburgh. Historic neighborhoods, a rich collection of Gilded Age museums, and Kennywood—a living museum for amusement park fans—all contribute to the city's unique charm."
+Dingle,County Kerry,Ireland,Dingle1.jpg,Limerick,"If you have a postcard image of Ireland, but want to avoid the well-traveled tourist route, the Dingle Peninsula serves village charm, bucolic scenery, and dramatic seascapes in every inch. A ferry to the Blasket Islands will take you to the edge of nowhere."
+Havasu Falls,Arizona,United States,havasufalls.jpg,Grand Canyon,"It's a ten-mile hike to the etherial turquoise waters of Havasu Falls in a branch of Arizona's Grand Canyon. Though access is permitted year round, go between May and September to enjoy a swim in warm water."
+La Bufadora,Baja California,Mexico,labufadora.jpg,Ensenada,"La Bufadora is a marine geyser located on the Punta Banda Peninsula in Baja California. An easy visit from nearby Ensenada or Tijuana, La Bufadora is a thrilling place to see nature give one of it's singular shows."
+Valle de Guadalupe,Baja California,Mexico,valledeguadalupe.jpg,Ensenada,"One of Mexico's most spectaular wine destinations is Valle de Guadalupe, located near Ensenada in Baja California. Wine tastings are popular year round, but come in August to enjoy the annual Grape Harvest Fiestas."
+Guanajuato,Guanajuato,Mexico,guanajuato.jpg,Guanajuato,"The mid-size city of Guanajuato in Central Mexico has its roots in silver mining. Today, it's hilly, winding streets—like the pedestrian Callejón del Beso—are a great place to get lost in colonial architecture."
+Sayulita,Nayarit,Mexico,sayulita.jpg,Sayulita,"For a beautiful alternative to the overcrowded Pacific Coast beaches of Puerto Vallarta, Mexico's Sayulita makes a great destination. Known as a ""Magical Town"" for its colorful ambience and richness and convergence of culture, Sayulita also offers great waves for surfing."
+Grutas de Tolantongo,Hidalgo,Mexico,grutasdetolantongo.jpg,Actopan,"The vibrant, hillside natural hot springs of Grutas de Tolantongo are a great spot to mix adventure and relaxation. Just a two-hour drive north of Mexico City, the grottoes and edgeless pools of Tolantongo overlook dramatic valleys and mountains."
+Medellin,Antioquia,Colombia,medellin.jpg,Medellín,"Medellín, Colombia's second largest city, once had a reputation that deterred visitors. But today, the adventurous are rewarded with a modern metropolis, full of history and culture. December visitors will be dazzled by one of the world top 10 Christmas light displays in the city streets."
+Guatape,Antioquia,Colombia,guatape.jpg,Guatape,"The colorful Andean town of Guatape in Colombia calls to mind Alpine village, but with a distinct South American perspective. Fantastically decorated home sit below the monolithic Peñón de Guatapé, from the peak of which climbers are rewarded unparalleled views."
+Santa Fe,New Mexico,United States,santafe.jpg,Albuquerque,"Equally treasued for it's Southwest architecture and it's native and native-inspired arts community, Santa Fe, New Mexico also the unlikely location of an annual opera festival. Just outside of town, the mountain wilderness awaits, including natural hot springs."
+Arenal Volcano,Alajuela,Costa Rica,arenalvolcano.jpg,La Fortuna,"Arenal Volcano in Costa Rica is an active volcano, rising dramatically from the tropical landscape 80 miles north of San José. A visit Arenal Volcano National Park allows travellers to survey the still-evident destruction from a major eruption in 1968."
+Varadero,Havana,Cuba,varadero.jpg,Havana,"Trade the well-traveled beaches of Florida for a Caribbean experience within reach at Cuba's Varadero coast. Aside from the beach, explore Cuba's history and culture in one of several early Twentieth Century mansions that are now home to museums."
+Ajanta,Maharashtra,India,Ajanta1.jpg,Sillod,The Buddhist temples of Ajanta in Western India are carved right out of the rocky cliff face. Many of these richly sculpted temples date from as long as 2000 years ago. These awe-inspiring works of ancient engineering are a UNESCO World Heritage Site.
+Ellora,Maharashtra,India,Ellora1.jpg,Aurangabad,"Featuring over 100 sculpted caves, the Indian temples at Ellora are devoted to Buddhism, Hinuism, and Jainism. The elaborate, richly decorated temples were carved directly out of the rock, including the Kailasa temple, which is the largest monolithic rock excavation in the world."
+Ciqikou,Chongqing,China,Ciqikou1.jpg,Chongqing,"Ciqikou's steep and narrow pedestrian streets are a perfect place to get lost. Home of a rich porcelain trade, Ciqikou has risen over the Jialing River on the outskirts of Chongqing for over a millenium."
+Aoshima,Ehime,Japan,Aoshima1.jpg,Matsuyama,"Aoshima—also aptly known as Cat Island—lies in inland waters off the coast of Shikoku, Japan. Known for its large number of feline residents, on Aoshima human residents are outnumbered by cats 10 to 1."
+Marfa,Texas,United States,Marfa1.jpg,Marfa,"Two hundred miles east of El Paso in the high desert of West Texas sits Marfa, a tiny town with a population of 2,000. Dubbed the ""Capital of Quirkiness,"" Marfa has developed a reputation as an unlikely art destination, since sculptor Donald Judd moved there in the early 70's."
+Paro Taktsang,Paro Districtu,Bhutan,tigernest.jpg,Paro,"Taktsang Palphug Monastery is a sacred and awe-inspiring Buddhist site that sits 3,000 meters above sea level high in the Bhutan Himalayas. These remote cliffs have been home to temple structures for over 300 years."
+Tegallalang (Gianyar Regency),Bali,Indonesia,tegallalang.jpg,Tegallalang,"The majestic terraced rice fields of Tegallalang in Bali present an awe-inspiring picture of an age-old way of life in this part of Indonesia. Coffee connoisseurs can also enjoy the local Kopi Luwak, one of the most precious coffee beans in the world."
+Bagan,Mandalay,Myanmar,Bagan1.jpg,Pakokku,"To behold Bagan and its 26 square miles of temple-dotted landscape is to behold an entire ancient civilization. While the structures of over 2000 temples still remain, it is merely a sample of the 10,000 that existed in the height of the Pagan kingdom, 1000 years ago."
+Brasilia,Federal District,Brazil,Brasilia1.jpg,Brasilia,"Created in the 1960's as a planned capital city for Brazil, Brasilia is unique for it's cluster of structures by Midcentury architectural luminaries like Oscar Niemeyer. To stroll down the wide boulevards of this city is to experience the modern era like nowhere else."
+Mürren,Bernese Highlands,Switzerland,murren.jpg,Brasilia,"This Swiss mountain village at the foot of the Schilthorn peak offers the prototypical Alpine experience. Green grass, white snow, and blue skies are all under the eye of the Schilthorn - a favorite for 007 fans as the location of 1969's ""On Her Majesty's Secret Service."""
+Tampa,Florida,United States,Tampa1.jpg,Mürren,"Tampa may be popular as the home of Busch Gardens and for it's proximity to sparkling Gulf Coast beaches, but the city itself offers a few surprises. Visit Ybor City, a former cigar manufacturing district, and you'll swear you're closer to New Orleans than to Central Florida."
+Assateague,Maryland,United States,Assateague1.jpg,Bethany Beach,"Assateague Island, just south of tourist-heavy Ocean City, Maryland, offers solitude and sandy beaches. Famous for it's unique population of feral horses, Assateague also features miles of undeveloped national seashore, providing a true summer escape."
+Victoria,British Columbia,Canada,Victoria1.jpg,Nanaimo,"The Capital of British Columbia, Victoria is a charming alternative to bustling Vancouver. Set on a picturesque harbor, Victoria is home to beautiful gardens, museums, and the second oldest Chinatown in North America."
+Nashik,Maharashtra,India,Nashik1.jpg,Nashik,"Nashik, the ""Wine Capital of India,"" is nestled in the mountainous heart of India's burgeoning wine region. Located 190km from Mumbai, Nashik is an ancient holy city and worthwhile destination in its on right."
+Huangshan,Anhui,China,Huangshan1.jpg,Huangshan,"Well known for its scenery, sunsets, peculiarly-shaped granite peaks, the Huangshan mountains in Eastern China are a UNESCO World Heritage Site. Dramatically perched temples and views that have inspired centuries of Chinese art leave visitors captivated."
+Tulum,Quintana Roo,Mexico,tulum.jpg,Cancun,"A couple short hours south of tourist-pummeled Cancun, Tulum offers gorgeous beaches and the adventure of ancient Mayan ruins. The real draw, however, are the multiple cenotes in the area. These deep holes and underground caves offer a truly unique swimming experience."
+Vinicunca,Cusco Region,Peru,vinicunca.jpg,Ayacucho,"Located in the Peruvean Andes south of Cusco, Vinicunca is also known as Rainbow Mountain, and for obvious reasons. The natural, bright colored striations can only be appreciated after a six day hike, making this the perfect destination for adventure travellers."
