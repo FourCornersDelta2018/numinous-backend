@@ -16,6 +16,8 @@ dest_csv.each do |row|
   t.region = row['region']
   t.country = row['country']
   t.img_path = row['img']
+  t.nearest_city_weather = row['nearest_city_weather']
+  t.description = row['description']
   t.save
 end
 
